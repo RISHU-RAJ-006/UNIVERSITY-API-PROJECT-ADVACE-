@@ -1,6 +1,4 @@
-/* ================================
-   Animated University Project CSS
-   ================================ */
+
 
 * {
   box-sizing: border-box;
@@ -9,14 +7,12 @@
   font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Body with default background */
 body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.55),
       rgba(0, 0, 0, 0.55)
     ),
     url(uni3.jpg)
-    /* url("https://img.freepik.com/premium-vector/luxury-dark-background-with-circle-shape_67845-303.jpg") */
       no-repeat center center/cover;
   min-height: 100vh;
   display: flex;
@@ -29,7 +25,6 @@ body {
   transition: background 1.5s ease-in-out;
 }
 
-/* Page title */
 h1 {
   font-size: 2rem;
   margin-bottom: 25px;
@@ -39,7 +34,7 @@ h1 {
   animation: slideDown 1s ease;
 }
 
-/* Input box */
+
 input[type="text"] {
   width: 100%;
   max-width: 400px;
@@ -65,7 +60,6 @@ input[type="text"]:focus {
   transform: scale(1.03);
 }
 
-/* Search Button */
 button {
   padding: 12px 25px;
   font-size: 16px;
@@ -84,7 +78,6 @@ button:hover {
   box-shadow: 0 6px 18px rgba(0, 131, 176, 0.6);
 }
 
-/* University List */
 ul#list {
   list-style-type: none;
   margin-top: 25px;
@@ -114,7 +107,6 @@ ul#list li:hover {
   box-shadow: 0 4px 12px rgba(0, 131, 176, 0.2);
 }
 
-/* Animations */
 @keyframes fadeInBody {
   from {
     opacity: 0;
